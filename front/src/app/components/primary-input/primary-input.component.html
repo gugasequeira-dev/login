@@ -1,0 +1,12 @@
+<div class="input-wrapper">
+
+    <label [for]="formName">{{ label }}</label>
+    <div class="input-content">
+
+    </div>
+
+    <input [type]="type" [formControlName]="formName" [placeholder]="placeHolder" />
+    <div class="icon">
+        <ng-content></ng-content>
+    </div>
+</div>

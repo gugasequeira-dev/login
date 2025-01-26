@@ -1,0 +1,30 @@
+@use "../../../../src/styles/variables" as variables;
+
+.input-wrapper {
+    color: variables.$text-color;
+    font-size: 16px;
+    text-align: start;
+
+    label {
+        margin-bottom: 10px;
+    }
+
+    input-content {
+        width: 100%;
+        border-radius: 8px;
+
+        .icon {
+            background-color: variables.$primary-color;
+            padding: 12px 12px 12px 20px;
+        }
+
+        input {
+            border: none;
+            
+            background-color: variables.$gray-secondary-bg;
+            padding: 12px 0 12px 20px;
+            width: 100%;
+
+        }
+    }
+}
