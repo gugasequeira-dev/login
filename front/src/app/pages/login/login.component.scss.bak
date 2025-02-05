@@ -13,4 +13,5 @@ form {
         color: variables.$secondary-color;
         text-align: end;
     }
+
 }

@@ -38,18 +38,17 @@ export class PrimaryInputComponent implements ControlValueAccessor {
 
   // Método chamado pelo Angular para atualizar o valor do campo
   writeValue(value: any): void {
-    this.value = value
+    this.value = value;
   }
 
   // Registra a função que será chamada quando o valor mudar
   registerOnChange(fn: any): void {
-    this.onChange = fn
+    this.onChange = fn;
   }
 
   // Registra a função que será chamada quando o campo for tocado
   registerOnTouched(fn: any): void {
-    this.onTouched = fn
+    this.onTouched = fn;
   }
 
-  setDisabledState(isDisabled: boolean): void {}
 }
